@@ -1,0 +1,430 @@
+body{
+    background-color: #cccccc;
+}
+.mnav{
+    background-color: #000066;
+    height: 60px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.mnavf{
+    background-color: #000066;
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+.mnavf p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.navl{
+    float: left;
+}
+.navr{
+    float: right;
+}
+.mnav h3{
+    padding: 0;
+    margin: 15px;
+    color: white;
+}
+.mnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right:15px;
+}
+.mnav ul li{
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-right: 50px;
+}
+.mnav ul li a{
+    color: white;
+    display:inline-block;
+    padding: 5px 10px 5px 10px;
+}
+.mnav ul li a:hover{
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.mnav2{
+    background-color: #000066;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.mnavf2{
+    background-color: #000066;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+}
+.mnavf2 p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.navl{
+    float: left;
+}
+.navr{
+    float: right;
+}
+.mnav2 h3{
+    padding-left: 20px;
+    margin: 15px;
+    color: white;
+}
+.mnav2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right:15px;
+}
+.mnav2 ul li{
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-right: 50px;
+}
+.mnav2 ul li a{
+    color: white;
+    display:inline-block;
+    padding: 5px 10px 5px 10px;
+}
+.mnav2 ul li a:hover{
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.immg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.immg2{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.login{
+    background-color: white;
+    width: 70%;
+    margin:auto;
+    padding-bottom: 100px;
+
+}
+.login  h3{
+    padding: 0;
+    color: blue;
+    text-align: center;
+    padding-top: 50px;
+}
+.loginin{
+    width: 40%;
+    height:auto;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.76);
+    border-radius: 5px;
+}
+.loginin form{
+    padding-left: 50px;
+}
+.loginin form label{
+    color: blue;
+    font-size:20px;
+    margin-top: 20px;
+    font-family: 'Crimson Text', serif;
+}
+.loginin form input[type=text],input[type=password] {
+    width: 70%;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    font-family: 'Crimson Text', serif;
+}
+.loginin form input[type=submit]{
+    width: 30%;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    margin-top: 15px;
+    border-radius: 2px;
+    font-size: 18px;
+    color: blue;
+    background-color: white;
+    font-family: 'Crimson Text', serif;
+}
+.error{
+    background-color: red;
+    height: auto;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: deds;
+}
+.suc{
+    background-color: green;
+    height: auto;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: deds;
+}
+.adminmain{
+    margin: auto;
+    padding: 0;
+    height: 670px;
+    width: 95%;
+}
+.adminmain .adminleft{
+    height: auto;
+    width: 30%;
+    float: left;
+    background-color: white;
+    border-radius: 3px;
+}
+.adminmain .adminleft ul{
+    margin: 0px;
+    padding: 0px;
+}
+.adminmain .adminleft ul li{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.adminmain .adminleft ul li a{
+    text-decoration: none;
+    color: #330099;;
+    margin-left: 20px;
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+}
+.adminmain .adminleft ul li a:hover{
+    color: white;
+    background-color: #000066;
+}
+.adminmain .adminleft h3 ,.adminright h3{
+    color: #330099;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+.adminmain .adminright p{
+    color: #330099;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    margin: 0px;
+    padding: 0px;
+}
+.adminmain .adminleft hr ,.adminright hr{
+    background-color: #330099;
+    padding: 1px;
+}
+.adminmain .adminright{
+    height: auto;
+    width: 69%;
+    float: left;
+    margin-left: 12px;
+}
+.adminright .left{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-left: 12px;
+}
+.adminmain .adminright h4{
+    color: #000000;
+    font-family: 'Crimson Text', serif;
+    font-size: 21px;
+    line-height: 28px;
+    padding-left: 0px;
+}
+.adminmain h4{
+    color: #000000;
+    font-family: 'Crimson Text', serif;
+    font-size: 21px;
+    line-height: 28px;
+    padding-left:  410px;
+}
+.adminmain .adminright .add{
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+}
+.adminmain .adminright .add label{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+}
+.add select{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid blue;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+.add select option{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+.add  input[type=submit]{
+    width: 50%;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 2px;
+    font-family: 'Crimson Text', serif;
+    color: blue;
+    background-color: white;
+    height: 40px;
+    font-size: 18px;
+}
+.adminmain .adminright .details{
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+.adminmain .adminright .details3{
+    width: 100%;
+    float: left;
+}
+
+.details table{
+    margin-top: 25px;
+    width: 100%;
+}
+.details th, td{
+    border: 1px solid blue;
+    text-align: center;
+    padding:10px 15px 10px 15px;
+}
+.details3 th, td{
+    border: 1px solid blue;
+    text-align: center;
+    padding:10px 15px 10px 15px;
+}
+.dlt{
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.dlt2{
+    font-size: 12px;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.dlt2:hover{
+   color: red;
+    background-color: white;
+    text-decoration: none;
+}
+.dlt:hover{
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+.adminright form input[type=text]{
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    font-family: 'Crimson Text', serif;
+}
+.adminmain .adminright .add2{
+    width: 40%;
+    float: left;
+    margin-left: 250px;
+}
+.adminmain .adminright .add2 label{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 100;
+}
+.add2 select{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+.add2 select option{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+.add2  input[type=submit]{
+    width: 30%;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 2px;
+    font-family: 'Crimson Text', serif;
+    color: blue;
+    background-color: white;
+    height: 40px;
+    font-size: 18px;
+}
+.error2{
+    background-color: red;
+    height: auto;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    animation: deds;
+}
+.suc2{
+    background-color: green;
+    height: auto;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    animation: deds;
+}
+
+
